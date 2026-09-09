@@ -1,0 +1,62 @@
+@model AtividadeBootstrap.Models.HomeViewModel
+
+@{
+    ViewData["Title"] = "Início";
+}
+
+<section id="inicio" class="hero-section">
+
+    <div class="hero-content">
+
+        <h1>@Model.Titulo</h1>
+
+        <p>@Model.Descricao</p>
+
+        <a class="quote-button"
+           asp-controller="Orcamento"
+           asp-action="Index">
+            @Model.Botao
+        </a>
+
+    </div>
+
+    <div class="rings" aria-hidden="true">
+        <span class="ring ring-green"></span>
+        <span class="ring ring-purple"></span>
+    </div>
+
+</section>
+
+
+<section id="servicos" class="services-section">
+
+    <h2>Nossos Serviços</h2>
+
+    <div class="services-grid">
+
+        @foreach (var servico in Model.Servicos)
+        {
+            <article class="service-card">
+
+                <span class="service-dot"
+                      style="background-color:@servico.Cor">
+                </span>
+
+                <h3 style="color:@servico.Cor">
+                    @servico.Titulo
+                </h3>
+
+                <p>
+                    @servico.Descricao
+                </p>
+
+            </article>
+        }
+
+    </div>
+
+</section>
+
+
+<section id="depoimentos" class="hidden-anchor">
+</section>

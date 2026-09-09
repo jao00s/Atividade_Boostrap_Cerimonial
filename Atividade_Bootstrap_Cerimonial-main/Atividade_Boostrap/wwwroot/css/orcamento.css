@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #1a1a1a;
+    background: #fff;
+}
+
+.enlace-header {
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.enlace-logo {
+    color: #111;
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.enlace-nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.enlace-nav a {
+    color: #222;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.enlace-nav a:hover {
+    color: #a83232;
+}
+
+.orcamento-page {
+    min-height: calc(100vh - 74px);
+    padding: 45px 20px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #fff6f6;
+}
+
+.orcamento-card {
+    width: 100%;
+    max-width: 620px;
+    padding: 35px 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .12);
+}
+
+.orcamento-card h1 {
+    margin: 0;
+    text-align: center;
+    color: #a83232;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 32px;
+}
+
+.orcamento-subtitulo {
+    margin: 8px 0 28px;
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+}
+
+.campo {
+    margin-bottom: 18px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.campo input {
+    width: 100%;
+    height: 46px;
+    padding: 0 13px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+    background: #fff;
+}
+
+.campo input:focus {
+    outline: none;
+    border-color: #a83232;
+    box-shadow: 0 0 0 2px rgba(168, 50, 50, .12);
+}
+
+.erro {
+    display: block;
+    margin-top: 5px;
+    color: #c00000;
+    font-size: 12px;
+}
+
+.btn-enviar,
+.btn-voltar {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-enviar {
+    margin-top: 8px;
+    border: 0;
+    background: #a83232;
+    color: #fff;
+}
+
+.btn-enviar:hover {
+    background: #8f2929;
+}
+
+.btn-voltar {
+    margin-top: 10px;
+    background: #eee;
+    color: #333;
+}
+
+.btn-voltar:hover {
+    background: #ddd;
+}
+
+.mensagem-sucesso {
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    background: #e5f6df;
+    color: #23651b;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media (max-width: 650px) {
+    .enlace-header {
+        height: auto;
+        padding: 16px 18px;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .enlace-nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .orcamento-page {
+        min-height: calc(100vh - 120px);
+        padding: 25px 14px 40px;
+    }
+
+    .orcamento-card {
+        padding: 28px 20px;
+    }
+
+    .orcamento-card h1 {
+        font-size: 27px;
+    }
+}

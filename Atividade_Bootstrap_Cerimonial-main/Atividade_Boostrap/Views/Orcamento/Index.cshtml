@@ -1,0 +1,66 @@
+@model AtividadeBootstrap.Models.OrcamentoViewModel
+
+@{
+    ViewData["Title"] = "Solicitar orçamento";
+    Layout = "~/Views/Shared/OrcamentoLayout.cshtml";
+}
+
+<section class="orcamento-page">
+    <div class="orcamento-card">
+        <h1>Solicitar orçamento</h1>
+        <p class="orcamento-subtitulo">
+            Preencha os dados abaixo e entraremos em contato com você.
+        </p>
+
+        @if (ViewBag.Sucesso != null)
+        {
+            <div class="mensagem-sucesso">
+                @ViewBag.Sucesso
+            </div>
+        }
+
+        <form asp-controller="Orcamento" asp-action="Index" method="post">
+            <div class="campo">
+                <label asp-for="Nome">Nome</label>
+                <input asp-for="Nome" placeholder="Digite seu nome" />
+                <span asp-validation-for="Nome" class="erro"></span>
+            </div>
+
+            <div class="campo">
+                <label asp-for="Data">Data do evento</label>
+                <input asp-for="Data" type="date" />
+                <span asp-validation-for="Data" class="erro"></span>
+            </div>
+
+            <div class="campo">
+                <label asp-for="Telefone">Telefone</label>
+                <input asp-for="Telefone" type="tel" placeholder="(00) 00000-0000" />
+                <span asp-validation-for="Telefone" class="erro"></span>
+            </div>
+
+            <div class="campo">
+                <label asp-for="Endereco">Endereço</label>
+                <input asp-for="Endereco" placeholder="Digite o endereço do evento" />
+                <span asp-validation-for="Endereco" class="erro"></span>
+            </div>
+
+            <div class="campo">
+                <label asp-for="CPF">CPF</label>
+                <input asp-for="CPF" inputmode="numeric" placeholder="000.000.000-00" />
+                <span asp-validation-for="CPF" class="erro"></span>
+            </div>
+
+            <button type="submit" class="btn-enviar">
+                Solicitar orçamento
+            </button>
+
+            <a asp-controller="Home" asp-action="Index" class="btn-voltar">
+                Voltar
+            </a>
+        </form>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
