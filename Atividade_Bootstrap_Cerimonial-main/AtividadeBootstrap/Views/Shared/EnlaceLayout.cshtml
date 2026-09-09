@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"] - Enlace</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/enlace.css" />
+
+</head>
+
+<body>
+
+    <header class="enlace-header">
+
+        <!-- Logo / Sobre -->
+        <a class="enlace-logo"
+           asp-controller="Home"
+           asp-action="Index">
+            Enlace
+        </a>
+
+        <nav class="enlace-nav">
+
+            <!-- Sobre -->
+            <a asp-controller="Home"
+               asp-action="Index">
+                Sobre
+            </a>
+
+            <!-- Serviços -->
+            <a asp-controller="Servicos"
+               asp-action="Servicos">
+                Serviços
+            </a>
+
+            <!-- Depoimentos -->
+            <a asp-controller="Depoimentos"
+               asp-action="Depoimentos">
+                Depoimentos
+            </a>
+
+        </nav>
+
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="enlace-footer">
+
+        <p>
+            Enlace Cerimonial &copy; @DateTime.Now.Year
+        </p>
+
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+@model EnlaceMVC.Models.DepoimentosViewModel
+
+@{
+    ViewData["Title"] = "Depoimentos";
+    Layout = "~/Views/Shared/_LayoutDepoimentos.cshtml";
+}
+
+<section class="depoimentos-hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <a class="quote-button"
+           asp-controller="Servicos"
+           asp-action="Servicos">
+            @Model.BotaoOrcamento
+        </a>
+    </div>
+</section>
+
+<section class="testimonials-section" id="depoimentos">
+    <h1>@Model.Titulo</h1>
+
+    <div class="testimonials-grid">
+        @foreach (var depoimento in Model.Depoimentos)
+        {
+            <article class="testimonial-card">
+                <div class="testimonial-photo">
+                    <img src="@Url.Content(depoimento.Imagem)"
+                         alt="Foto de @depoimento.Nome"
+                         onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder');" />
+                </div>
+
+                <p class="testimonial-text">@depoimento.Texto</p>
+                <p class="testimonial-name" style="color:@depoimento.Cor">@depoimento.Nome</p>
+            </article>
+        }
+    </div>
+</section>
