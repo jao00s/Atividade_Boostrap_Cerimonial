@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AtividadeBootstrap
+build_property.RootNamespace = AtividadeBootstrap
+build_property.ProjectDir = /Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/Home/Depoimentos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZXBvaW1lbnRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/Home/Servicos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TZXJ2aWNvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/Home/Sobre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Tb2JyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/Shared/EnlaceLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0VubGFjZUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/Shared/EnlaceSobreLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0VubGFjZVNvYnJlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/Shared/_LayoutDepoimentos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXREZXBvaW1lbnRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/DS1/Documents/Atividade_Boostrap_Cerimonial/Atividade_Bootstrap_Cerimonial-main/Atividade_bootstrap/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cqrknz12jp
